@@ -1,3 +1,7 @@
+# 📚 Representation and Interpretation in Artificial and Natural Computing
+
+> 《人工与自然计算中的表示与解释》理论实现
+
 # 😎 MCP Servers: 计算界的复仇者联盟
 
 ## 😎 整体介绍
