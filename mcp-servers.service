@@ -1,0 +1,14 @@
+[Unit]
+Description=Model Context Protocol Servers
+After=network.target
+
+[Service]
+Type=simple
+User=paul
+WorkingDirectory=/Users/paul/CascadeProjects/mcp-servers
+ExecStart=/usr/bin/env python3 deploy.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
